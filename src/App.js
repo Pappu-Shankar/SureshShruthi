@@ -1,11 +1,12 @@
 import "./App.css";
 import styled from "@emotion/styled";
-import music from "./assests/Alai Payuthey.mp3";
-import useAudio from "./useAudio";
+// import music from "./assests/Alai Payuthey.mp3";
+// import useAudio from "./useAudio";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Section4 from "./Section4";
+import Footer from "./Footer";
 
 const MainLayout = styled.div`
   .section1 {
@@ -69,14 +70,15 @@ const MainLayout = styled.div`
 `;
 
 function App() {
-  const [playing, toggle] = useAudio(music);
+  // const [playing, toggle] = useAudio(music);
   return (
     <MainLayout>
       {/* <button onClick={toggle}>{playing ? "Pause" : "Play"}</button> */}
-      <Section1></Section1>
-      <Section2></Section2>
-      <Section3></Section3>
-      <Section4></Section4>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Footer />
     </MainLayout>
   );
 }
