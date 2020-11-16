@@ -89,7 +89,7 @@ function Section1() {
       <div className="parallax"></div>
       <div className="content">
         <div className="name">
-          <span className="groom">Suresh சுரேஷ்</span>
+          <span className="groom">Suresh</span>
           <div className="hearts">
             <img src={heart} alt="weds" />
           </div>

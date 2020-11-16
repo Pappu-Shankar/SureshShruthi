@@ -2,7 +2,7 @@
   "name": "template1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Pappu-Shankar.github.io/SureshShruthi",
+  "homepage": "http://pappu-shankar.github.io/SureshShruthi",
   "dependencies": {
     "@emotion/core": "^10.1.1",
     "@emotion/styled": "^10.0.27",
