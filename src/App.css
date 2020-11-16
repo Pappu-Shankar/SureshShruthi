@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;900&family=Baloo+Thambi+2:wght@400;800&family=Catamaran:wght@100;800;900&family=Coiny&family=Hind+Madurai:wght@300;700&family=Kavivanar&family=Meera+Inimai&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Pavanam&display=swap");
+
+.App {
+  text-align: center;
+}
+@font-face {
+  font-family: Quickpen;
+  src: url(./assests/Quickpen.otf);
+}
+:root {
+  /* Tamil Font */
+  /* --brideFont: ; */
+  /* --brideFont: "Arima Madurai", cursive; */
+  /* --brideFont: "Baloo Thambi 2", cursive; */
+  /* --brideFont: "Catamaran", sans-serif; */
+  /* --brideFont: "Coiny", cursive; */
+  /* --brideFont: "Hind Madurai", sans-serif; */
+  /* --brideFont: "Kavivanar", cursive; */
+  /* --brideFont: "Meera Inimai", sans-serif; */
+  /* --brideFont: "Mukta Malar", sans-serif; */
+  /* --brideFont: "Pavanam", sans-serif; */
+  /* English Font */
+  --brideFont: "Dancing Script", "Arima Madurai", cursive;
+  /* --brideFont : "Sacramento", cursive; */
+  /* --brideFont : "Kaushan Script", cursive; */
+  /* --brideFont : "Pacifico Script", cursive; */
+  /* --brideFont : "Quickpen", cursive; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.parallax {
+  background-image: url(./assests/1315500.jpg);
+  min-height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes mouse-scroll {
+  from {
+    /* opacity: 1; */
+    height: 15%;
+  }
+  to {
+    /* opacity: 0; */
+    height: 40%;
+  }
+}
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
